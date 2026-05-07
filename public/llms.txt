@@ -1,0 +1,26 @@
+# Oshen Sathsara Hettiwana
+
+> Full-Stack Software Engineer, Digital Marketing Specialist, and Director based in Sri Lanka.
+
+## About
+Oshen Sathsara Hettiwana is a multifaceted professional operating at the intersection of software engineering and digital branding.
+- **Education:** 3rd-year Software Engineering undergraduate (BSc Hons) at Birmingham City University. Professional Higher Diploma in Software Engineering from the Java Institute for Advanced Technology.
+- **Current Roles:** IT & Digital Marketing Assistant at the Kegalle Vocational Training Campus (KVTC) and Director at Win Win Solutions.
+- **Expertise:** PHP, Laravel, Java, MySQL, UI/UX Design, Adobe Creative Suite (Photoshop, Illustrator), and Social Media Marketing.
+
+## Projects & Branding
+- **Win Win Solutions:** Directed complete brand identity, logo design, website UI/UX, and social media strategy. (https://winwinsolutions.lk/)
+- **KVTC Student Management System:** Comprehensive web platform for managing student data. Built with PHP, Laravel, Tailwind CSS, and MySQL. (https://kvtcampus.lk/)
+- **Kegalu Welanda Sangamaya System:** Web-based membership and cashbook system. Built with PHP, Bootstrap, Vanilla JS, and MySQL.
+- **ISCOM Printers Management System:** Full-stack e-commerce and inventory application. Built with Java, Swing, Hibernate, and MySQL.
+- **Gayan Holdings:** Executed comprehensive branding campaigns. (https://web.facebook.com/gayanholdings)
+
+## Certifications
+- Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+- Oracle Cloud Infrastructure 2025 Certified Foundations Associate
+
+## Contact Information
+- **LinkedIn:** https://www.linkedin.com/in/oshen-sathsara03/
+- **GitHub:** https://github.com/oshen03
+- **Email:** oshensathsara2003@gmail.com
+- **WhatsApp:** +94774486310
