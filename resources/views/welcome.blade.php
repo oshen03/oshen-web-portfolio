@@ -244,7 +244,13 @@
                 </div>
                 
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" action="#" method="POST">
+                    @if (session('success'))
+                        <div style="background-color: rgba(74, 222, 128, 0.1); color: #4ade80; border: 1px solid #4ade80; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; text-align: center;">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <form class="contact-form" action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" class="form-control" placeholder="Oshen Sathsara" required>
