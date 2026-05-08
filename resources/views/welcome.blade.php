@@ -58,7 +58,7 @@
     </script>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
