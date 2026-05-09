@@ -64,9 +64,10 @@
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
 </head>
 <body>
-    <div class="bg-glow"></div>
-    
-    <!-- Hero Section -->
+    <div style="overflow-x: hidden; position: relative; width: 100%;">
+        <div class="bg-glow"></div>
+        
+        <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container hero-grid">
             <div class="hero-content">
@@ -79,6 +80,85 @@
             </div>
             <div class="hero-image-wrapper">
                 <img src="{{ asset('images/oshen-sathsara-hettiwana.png') }}" alt="Oshen Sathsara Hettiwana" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="text-gradient">Technical Skills</span></h2>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">JavaScript/TypeScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">MATLAB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">Java Servlets</span>
+                        <span class="tech-tag">Hibernate ORM</span>
+                        <span class="tech-tag">Java Swing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">Oracle Cloud Infrastructure (OCI)</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Nginx</span>
+                        <span class="tech-tag">GitHub Actions</span>
+                        <span class="tech-tag">CI/CD Pipelines</span>
+                        <span class="tech-tag">VM Deployment</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI / ML Knowledge</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Generative AI</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Branding & Digital Marketing</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">Digital Marketing</span>
+                        <span class="tech-tag">Brand Strategy</span>
+                        <span class="tech-tag">SEO Optimization</span>
+                        <span class="tech-tag">Social Media Management</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <span class="tech-tag">Git/GitHub</span>
+                        <span class="tech-tag">Postman</span>
+                        <span class="tech-tag">Microsoft Office</span>
+                        <span class="tech-tag">Adobe Photoshop</span>
+                        <span class="tech-tag">Adobe Illustrator</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -273,5 +353,6 @@
             </div>
         </div>
     </footer>
+    </div>
 </body>
 </html>
